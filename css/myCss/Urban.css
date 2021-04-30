@@ -1,0 +1,289 @@
+body {
+	font-family: "Scope One", arial, "sens serif";
+}
+
+body img {
+	width: 100%;
+	border: 4px double #dbdbdb;
+}
+
+#my_navigation {
+	width: 100%;
+	background: none;
+	border: none;
+}
+
+#my_navigation .navbar-toggle {
+	display: block;
+	background: none;
+	border: none;
+	cursor: pointer;
+
+}
+
+#my_navigation .navbar-header {
+	float: none;
+}
+
+#my_navigation .navbar-right {
+	float: left !important;
+}
+
+#my_navigation .iconbar-right {
+	float: right;
+	padding-left: 10px;
+}
+
+#my_navigation .iconbar-left {
+	float: left;
+	position: relative;
+	top: 12px;
+	color: #fff;
+}
+
+#my_navigation .my_brand{
+	margin-top: 11px; }
+
+
+#my_navigation .navbar-header span {
+	color: #3498db;
+}
+
+#my_navigation .navbar-header .icon-bar {
+	background-color: #fff;
+}
+
+#my_navigation .navbar-toggle:hover{
+	color: #3498db;
+}
+
+#my_navigation  a{ 
+	               color: #fff; 
+	               font-size: 15px;
+	               text-transform: capitalize;}
+
+#my_navigation a:hover{
+	color: #3498db;
+}
+
+
+/*header ends*/
+.my_container {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../img/banner.jpg");
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	position: center top;
+	color: #fff;
+}
+
+.my_container .banner_text {
+	position: relative;
+	top: 35%;
+}
+
+.my_container .banner_text h1 {
+	font-size: 55px;
+	font-weight: 600;
+}
+
+.my_container .banner_text p {
+	font-size: 23px;
+	font-weight: 400;
+	color: #dbdbdb;
+}
+
+.my_btn {
+	margin-top: 20px;
+	background-color: #3498db;
+	border: none;
+}
+
+/*banner text ends*/
+
+/*two section starts here*/
+
+.two_section {
+	margin: 80px auto;
+}
+
+.two_section h1,
+.full_width h1 {
+	font-weight: 600;
+	font-size: 25px;
+	margin-bottom: 25px;
+}
+
+/*two section ends here*/
+
+/*full-width starts here */
+.full_width {
+	width: 100%;
+	margin: 70px auto 0;
+	background-color: #3498db;
+	color: #fff;
+}
+
+.full_width .add_margin {
+	margin: 70px auto;
+}
+
+.full_width h1 {
+	margin-top: 40px;
+}
+
+.full_width button {
+	background-color: #fff;
+}
+
+/*full-width ends here */
+
+/*three section starts here */
+.three_Section {
+	width: 100%;
+	margin: 0px auto 70px;
+	background-color: #f0f0f0;
+}
+
+.three_Section .my_row {
+	margin: 50px auto;
+}
+
+.three_Section .box {
+	width: 30%;
+	margin-left: 3%;
+}
+
+.three_Section p {
+	margin: 20px 0;
+	font-size: 16px;
+}
+
+.three_Section h1 {
+	font-weight: 600;
+	margin-top: 70px;
+}
+
+.three_Section h4 {
+	font-size: 16px;
+}
+
+/*three section ends here */
+
+/*footer*/
+
+
+.footer {
+	width: 100%;
+	padding: 80px auto;
+	background-color: #fff;
+}
+
+.footer .fa {
+	font-size: 25px;
+	border: 4px double #dbdbdb;
+	border-radius: 50%;
+	color: grey;
+	padding: 7px;
+	margin-left: 15px;
+}
+
+.footer .fa-facebook {
+	padding: 7px 13px;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+}
+
+/*footer_ends*/
+@media(max-width:992px) {
+	.two_section img,
+	.full_width img {
+		width: 60%;
+	}
+
+
+    .two_section img{ margin-top: 50px; }
+
+	.two_section button {
+		margin-bottom: 35px;
+	}
+    
+     
+	.two_section,
+	.full_width {
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.my_container .banner_text h1 {
+		font-size: 45px;
+	}
+
+	.my_container .banner_text p {
+		font-size: 20px;
+	}
+
+	.my_btn {
+		width: 120px;
+		height: 50px;
+		font-size: 15px;
+	}
+
+	
+
+}
+
+@media(max-width:768px) {
+	.three_Section .box {
+		width: 60%;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.three_Section img {
+		margin-top: 25px;
+	}
+
+	.three_Section h1 {
+		font-size: 23px;
+	}
+
+	.three_Section h4 {
+		font-size: 13px;
+	}
+
+	.three_Section p {
+		font-size: 13px;
+	}
+
+	.my_container .banner_text h1 {
+		font-size: 40px;
+	}
+
+	.my_container .banner_text p {
+		font-size: 13px;
+	}
+
+	.my_btn {
+		width: 90px;
+		height: 40px;
+		font-size: 12px;
+	}
+
+	.two_section img{ margin-top: 30px; }
+
+	.footer .fa {
+		font-size: 15px;
+	}
+
+	.footer p {
+		font-size: 8px;
+	}
+
+	.my_collapse{ margin-left: 15px;
+	border-top: 1px solid #3498db; }
+
+}
